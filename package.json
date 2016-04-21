@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "angular2": "2.0.0-beta.15",
+    "rxjs": "5.0.0-beta.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "zone.js": "^0.6.11",
+    "variation-user": "0.0.9"
+  },
+  "description": "Direct access to postgresql procedures",
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "email": "pmartin@actimeo.fr",
+      "name": "Philippe MARTIN"
+    }
+  ],
+  "name": "ng2-postgresql-procedures",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actimeo/ng2-postgresql-procedures.git"
+  },
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
+  },
+  "version": "0.0.1"
+}
