@@ -2,4 +2,5 @@
 
 # ng2-postgresql-procedures
 
-Direct access to postgresql procedures
+Direct access to postgresql procedures - requires PHP PgProcedures package.
+
