@@ -1,7 +1,7 @@
 import {Injectable, Optional} from 'angular2/core';
 import {Http} from 'angular2/http';
 
-import {UserService} from 'variation-user/services';
+import {UserService} from './user-service';
 
 export class PgServiceConfig {
   pgPath: string;

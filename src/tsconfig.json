@@ -9,6 +9,5 @@
 	"sourceMap": true,
 	"outDir": "../lib",
 	"declaration": true
-    }, 
-    "files": ["compile.ts"]
+    }
 }
