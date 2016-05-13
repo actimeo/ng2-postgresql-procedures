@@ -1,5 +1,4 @@
-/// <reference path="../typings/main/ambient/jasmine/index.d.ts"/>
-import {it, describe, expect, beforeEach, inject} from 'angular2/testing';
+import {it, describe, expect, beforeEach, inject} from '@angular/core/testing';
 import {UserService} from "./user-service";
  
 describe('UserService Tests', () => {
